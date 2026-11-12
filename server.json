@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "fr.amacunia/medicare-npi-enrollment-revalidation-due-date",
+  "title": "Medicare Revalidation Due Date Sentinel",
+  "description": "When must this US healthcare provider (NPI) revalidate its Medicare enrollment, and is the date set?",
+  "version": "0.1.1",
+  "websiteUrl": "https://revalidation.amacunia.fr/",
+  "repository": {
+    "url": "https://github.com/Marcoco27/revalidation-deadline-sentinel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://revalidation.amacunia.fr/mcp"
+    }
+  ]
+}
